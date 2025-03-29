@@ -44,38 +44,6 @@ The ANN model consists of:
 - **Data-Driven Retention Strategies**: SHAP insights help in **personalized marketing and customer engagement**.
 - **Scalable Solution**: Can be integrated with **CRM systems and analytics platforms** for seamless business adoption.
 
-## How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/customer-churn-ann.git
-   cd customer-churn-ann
-   ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Train the model:
-   ```python
-   python train.py
-   ```
-4. Run the Flask API:
-   ```bash
-   python app.py
-   ```
-5. Access the API:
-   ```bash
-   curl -X POST -H "Content-Type: application/json" -d '{"customer_features": [value1, value2, ...]}' http://127.0.0.1:5000/predict
-   ```
-
 ## Conclusion
 This project demonstrates how deep learning can be applied to **customer churn prediction** effectively. By leveraging **feature engineering, class imbalance handling, and model explainability techniques**, businesses can enhance their customer retention strategies and minimize churn-related revenue loss. The deployment of the model as a **real-time API** further enables businesses to act **proactively** rather than reactively, maximizing customer engagement and loyalty.
-
----
-
-📌 **Contributors**: Your Name  
-📌 **Repository**: [GitHub Link]  
-📌 **License**: MIT  
-📌 **Contact**: Your Email  
-
-Feel free to fork, improve, and contribute! 🚀
 
