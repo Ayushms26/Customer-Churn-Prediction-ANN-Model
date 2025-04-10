@@ -1,7 +1,7 @@
 # Customer Churn Prediction using ANN (Keras/TensorFlow)
 
 ## Overview
-Customer churn prediction is a critical task for businesses aiming to retain high-value customers and reduce revenue loss. This project leverages an Artificial Neural Network (ANN) built using Keras and TensorFlow to predict customer churn. The model achieves **92% accuracy** by optimizing layers and using **SMOTE** to handle class imbalance, outperforming traditional models like logistic regression by **7% in recall** for high-risk customer identification.
+Customer churn prediction is a critical task for businesses aiming to retain high-value customers and reduce revenue loss. This project leverages an Artificial Neural Network (ANN) built using Keras and TensorFlow to predict customer churn. The model achieves **85% accuracy** by optimizing layers and using **SMOTE** to handle class imbalance, outperforming traditional models like logistic regression by **7% in recall** for high-risk customer identification.
 
 ## Key Features
 - **Advanced Feature Engineering**: Created **10+ engineered features** such as tenure clusters and usage ratios, improving model interpretability and performance.
